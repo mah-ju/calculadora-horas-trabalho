@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    font-family: 'Raleway', sans-serif;
+}
+
+
+input{
+    font-size: 1.1em;
+}
+
+
+.input-valor{
+    padding: 0.5em 0;
+    text-align: center;
+ 
+}
+
+
+
+#hora-job, #min-job, #valor-hora{
+    width: 30%;
+    padding: 0.3em 0.8em;
+    background-color: rgba(172, 79, 215, 0.4);
+    border: none;
+    border-radius: 0.3em;
+    color:white;
+
+
+}
+
+#valor-hora{
+    width: 45%;
+    margin-top: 0.5em;
+}
+.hora-min{
+    display: flex;
+    flex-direction: column;
+    margin-top: 1.5em;
+     
+
+}
+
+.input-horas{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+
+}
+
+.input-min{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1em;
+}
+
+.flex{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 0.5em;
+}
+
+h1{
+    padding-bottom: 0.5em;
+    text-align: center;
+    color: white;
+
+}
+
+button{
+    margin-top: 2em;
+    padding: 0.5em 1em;
+    cursor: pointer;
+    font-size: 1em;
+    font-weight: bold;
+    color:rgb(57, 10, 79);
+
+}
+
+label{
+    color: white;
+    font-size: 1.1em;
+    padding-right: 1em;
+}
+
+.para{
+    color: white;
+    padding-top: 1.5em;
+    font-size: 1.2em;
+}
+
+.box{
+    background-color: rgb(57, 10, 79);
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 2em;
+    border-radius: 1.5em;
+    padding: 1em;
+}
+
+@media (min-width:560px){
+
+.hora-min{
+    flex-direction:row;
+
+align-content: center;
+}
+
+.input-min{
+    margin-top: 0;
+}
+
+}
